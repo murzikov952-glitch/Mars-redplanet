@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: white;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+header {
+    padding: 15px;
+    text-align: center;
+
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+}
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+h2 {
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero {
+    text-align: center;
+    padding: 70px;
+
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+    url('https://upload.wikimedia.org/wikipedia/commons/5/5f/Mars_Valles_Marineris.jpeg');
+
+    background-size: cover;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+img {
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 10px;
+
+    box-shadow: 0 0 20px rgba(255, 100, 100, 0.5);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+footer {
+    padding: 15px;
+    text-align: center;
+background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+.space-btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(255, 100, 200, 0.7);
+}
+.space-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  background: #444;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.space-btn:hover {
+  background: linear-gradient(45deg, #ff00cc, #3333ff, #00ffcc);
+  transform: scale(1.05);
+}
+h1{
+   background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
